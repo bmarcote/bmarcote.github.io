@@ -1081,17 +1081,20 @@ body {
 }
 
 .price-catagory:hover .price-box {
-    border: 1px solid #ed1c24;
+    /*border: 1px solid #ed1c24;*/
+    border: 1px solid #119552;
 }
 
 .price-catagory:hover .price-box .btn {
     background-color: transparent;
-    color: #ed1c24;
-    border: 1px solid #ed1c24;
+    /*color: #ed1c24;*/
+	color: #119552;
+    /*border: 1px solid #ed1c24;*/
+    border: 1px solid #119552;
 }
 
 .price-box .btn:hover {
-    background-color: #ed1c24 !important;
+    background-color: #119552 !important;
     color: #ffffff !important;
 }
 
