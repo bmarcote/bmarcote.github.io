@@ -1,0 +1,931 @@
+********************
+Pipeline started on  Wed Nov 21 15:23:35 2018
+Using svn revision:   270     2007-06-19 19:25:01 +0200      file:///export/jive/reynolds/svnroot/repos/Pypeline/tags/PYPELINE-4-3/Pypeline/EVN.py 
+
+inputs:
+
+{'avg': ['0'],
+ 'bpass': ['0234+285', 'J0529+3209'],
+ 'doplot': ['1'],
+ 'experiment': ['ep103dunb'],
+ 'nheads': ['1'],
+ 'phaseref': ['J0529+3209', 'J0529+3209'],
+ 'plotavg': ['1.0'],
+ 'plotref': ['YS'],
+ 'refant': ['YS'],
+ 'sciter': ['2'],
+ 'target': ['J0530+3301', 'J0518+3306'],
+ 'tmask': [2, 999],
+ 'userno': ['2055'],
+ 'version': {'default': '31DEC13'}}
+doing tmask  2  to  999
+
+********************
+Checking the data:
+refant number=  [8]
+plotref number=  [8]
+target sources=  ['J0530+3301', 'J0518+3306']
+phaseref sources=  ['J0529+3209', 'J0529+3209']
+selfcal sources=  ['0234+285', 'J0529+3209']
+IF bandwidth=  32.0  MHz
+channel width=  500.0  kHz
+number channels per IF=  64
+number IFs=  8
+antennas= ['EF', 'JB', 'MC', 'NT', 'O8', 'TR', 'WB', 'YS', 'IR', 'SV', 'ZC', 'HH', 'UR', 'BD', 'T6', 'KM', 'AR']
+fring SNR cutoff=  7.0
+solint= 1.4656307999  min
+
+
+********************
+Starting tmask  2, flag using uvflg monitor data and flag band edges  at  Wed Nov 21 15:23:35 2018
+flagging using file: /jop83_0/pipe/in/ep103dunb/ep103dunb.uvflg
+UVFLG1: Task UVFLG  (release of 31DEC13) begins
+UVFLG1: Appears to have ended successfully
+
+/jop83_0/pipe/in/ep103dunb/ep103dunb.chflag is missing
+Flagging outer  4  channels instead
+UVFLG1: Task UVFLG  (release of 31DEC13) begins
+UVFLG1: Appears to have ended successfully
+UVFLG1: Task UVFLG  (release of 31DEC13) begins
+UVFLG1: Appears to have ended successfully
+Ending tmask  2  at  Wed Nov 21 15:23:35 2018
+
+
+********************
+Starting tmask  3, plot the data - vs time and frequency  at  Wed Nov 21 15:23:35 2018
+LISTR1: Task LISTR  (release of 31DEC13) begins
+LISTR1: Appears to have ended successfully
+DTSUM1: Task DTSUM  (release of 31DEC13) begins
+DTSUM1: Appears to have ended successfully
+POSSM1: Task POSSM  (release of 31DEC13) begins
+POSSM1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_POSSM_AUTOCORR.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_POSSM_AUTOCORR.PS  to pdf.
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_VPLOT_UNCAL.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_VPLOT_UNCAL.PS  to pdf.
+POSSM1: Task POSSM  (release of 31DEC13) begins
+POSSM1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_POSSM_UNCAL.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_POSSM_UNCAL.PS  to pdf.
+POSSM1: Task POSSM  (release of 31DEC13) begins
+POSSM1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_POSSM_CPOL.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_POSSM_CPOL.PS  to pdf.
+Ending tmask  3  at  Wed Nov 21 15:26:07 2018
+
+
+********************
+Starting tmask  4, amplitude calibration and parallactic angle correction  at  Wed Nov 21 15:26:07 2018
+Antab file=  /jop83_0/pipe/in/ep103dunb/ep103dunb.antab
+ANTAB1: Task ANTAB  (release of 31DEC13) begins
+ANTAB1: Appears to have ended successfully
+SNPLT1: Task SNPLT  (release of 31DEC13) begins
+SNPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_TSYS.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_TSYS.PS  to pdf.
+APCAL1: Task APCAL  (release of 31DEC13) begins
+APCAL1: Appears to have ended successfully
+CLCAL1: Task CLCAL  (release of 31DEC13) begins
+CLCAL1: *** WARNING: THE NEW CL TABLE WILL NOT CONTAIN ALL OF THE DATA
+CLCAL1: Appears to have ended successfully
+SNPLT1: Task SNPLT  (release of 31DEC13) begins
+SNPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_GAIN.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_GAIN.PS  to pdf.
+CLCOR1: Task CLCOR  (release of 31DEC13) begins
+CLCOR1: Appears to have ended successfully
+Ending tmask  4  at  Wed Nov 21 15:26:16 2018
+
+
+********************
+Starting tmask  5, fringe fitting  at  Wed Nov 21 15:26:16 2018
+Fringing sources  1  to  2
+FRING1: Task FRING  (release of 31DEC13) begins
+FRING1: Appears to have ended successfully
+CLCAL1: Task CLCAL  (release of 31DEC13) begins
+CLCAL1: *** WARNING: THE NEW CL TABLE WILL NOT CONTAIN ALL OF THE DATA
+CLCAL1: Appears to have ended successfully
+CLCAL1: Task CLCAL  (release of 31DEC13) begins
+CLCAL1: WARNING: SN table    2 has already been applied
+CLCAL1: Appears to have ended successfully
+CLCAL1: Task CLCAL  (release of 31DEC13) begins
+CLCAL1: WARNING: SN table    2 has already been applied
+CLCAL1: Appears to have ended successfully
+CLCAL1: Task CLCAL  (release of 31DEC13) begins
+CLCAL1: WARNING: SN table    2 has already been applied
+CLCAL1: Appears to have ended successfully
+Ending tmask  5  at  Wed Nov 21 15:44:34 2018
+
+
+********************
+Starting tmask  6, bandpass calibration  at  Wed Nov 21 15:44:34 2018
+BPASS1: Task BPASS  (release of 31DEC13) begins
+BPASS1: Appears to have ended successfully
+POSSM1: Task POSSM  (release of 31DEC13) begins
+POSSM1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_BANDPASS.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_BANDPASS.PS  to pdf.
+SNPLT1: Task SNPLT  (release of 31DEC13) begins
+SNPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_FRING_PHAS.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_FRING_PHAS.PS  to pdf.
+SNPLT1: Task SNPLT  (release of 31DEC13) begins
+SNPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_FRING_DELAY.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_FRING_DELAY.PS  to pdf.
+SNPLT1: Task SNPLT  (release of 31DEC13) begins
+SNPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_FRING_RATE.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_FRING_RATE.PS  to pdf.
+Ending tmask  6  at  Wed Nov 21 15:44:52 2018
+
+
+********************
+Starting tmask  7, plot calibrated data vs time and frequency  at  Wed Nov 21 15:44:52 2018
+POSSM1: Task POSSM  (release of 31DEC13) begins
+POSSM1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_POSSM_CAL.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_POSSM_CAL.PS  to pdf.
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_VPLOT_CAL.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_VPLOT_CAL.PS  to pdf.
+Ending tmask  7  at  Wed Nov 21 15:46:52 2018
+
+
+********************
+Starting tmask  8, split the calibrated data  at  Wed Nov 21 15:46:52 2018
+zapping old data: 0234+285.SPLIT.1
+zapping old data: J0529+3209.SPLIT.1
+zapping old data: J0530+3301.SPLIT.1
+zapping old data: J0518+3306.SPLIT.1
+Splitting sources  1  to  4
+SPLIT1: Task SPLIT  (release of 31DEC13) begins
+SPLIT1: Appears to have ended successfully
+Ending tmask  8  at  Wed Nov 21 15:47:16 2018
+
+
+********************
+Starting tmask  9, create multi files and make first maps  at  Wed Nov 21 15:47:16 2018
+
+mapping source= 0234+285
+zapping old data: 0234+285.MULTI.1
+MULTI1: Task MULTI  (release of 31DEC13) begins
+MULTI1: Appears to have ended successfully
+INDXR1: Task INDXR  (release of 31DEC13) begins
+INDXR1: Appears to have ended successfully
+UVPRM1: Task UVPRM  (release of 31DEC13) begins
+UVPRM1: Appears to have ended successfully
+Uniformly weighted clean map
+Creating image: 0234+285.ICL001.1
+zapping old data: 0234+285.ICL001.1
+zapping old data: 0234+285.IBM001.1
+number pixels= 512
+pixel size= 0.366975441871 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 1.00019061565
+rms flux= 0.150142215192
+dynamic range= 6.66162154576
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_ICLN_1.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_ICLN_1.PS  to pdf.
+
+mapping source= J0529+3209
+zapping old data: J0529+3209.MULTI.1
+MULTI1: Task MULTI  (release of 31DEC13) begins
+MULTI1: Appears to have ended successfully
+INDXR1: Task INDXR  (release of 31DEC13) begins
+INDXR1: Appears to have ended successfully
+UVPRM1: Task UVPRM  (release of 31DEC13) begins
+UVPRM1: Appears to have ended successfully
+Uniformly weighted clean map
+Creating image: J0529+3209.ICL001.1
+zapping old data: J0529+3209.ICL001.1
+zapping old data: J0529+3209.IBM001.1
+number pixels= 512
+pixel size= 0.372254386352 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.0453440956771
+rms flux= 0.00101400143467
+dynamic range= 44.7179798044
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_ICLN_1.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_ICLN_1.PS  to pdf.
+
+mapping source= J0530+3301
+zapping old data: J0530+3301.MULTI.1
+MULTI1: Task MULTI  (release of 31DEC13) begins
+MULTI1: Appears to have ended successfully
+INDXR1: Task INDXR  (release of 31DEC13) begins
+INDXR1: Appears to have ended successfully
+UVPRM1: Task UVPRM  (release of 31DEC13) begins
+UVPRM1: Appears to have ended successfully
+Uniformly weighted dirty map
+Creating image: J0530+3301.IIM001.1
+zapping old data: J0530+3301.IIM001.1
+zapping old data: J0530+3301.IBM001.1
+number pixels= 512
+pixel size= 2.1431339377 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.0226067546755
+rms flux= 0.0046570203267
+dynamic range= 4.85433884535
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_IMAPU.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_IMAPU.PS  to pdf.
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+Naturally weighted dirty map
+Creating image: J0530+3301.IIM001.2
+zapping old data: J0530+3301.IIM001.2
+zapping old data: J0530+3301.IBM001.2
+number pixels= 512
+pixel size= 2.1431339377 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.0237326994538
+rms flux= 0.00613009510562
+dynamic range= 3.87150591384
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_IMAPN.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_IMAPN.PS  to pdf.
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+Uniformly weighted clean map
+Creating image: J0530+3301.ICL001.1
+zapping old data: J0530+3301.ICL001.1
+zapping old data: J0530+3301.IBM001.1
+number pixels= 512
+pixel size= 2.1431339377 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.0124565251172
+rms flux= 0.00246623373823
+dynamic range= 5.05082909379
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_ICLN_1.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_ICLN_1.PS  to pdf.
+
+mapping source= J0518+3306
+zapping old data: J0518+3306.MULTI.1
+MULTI1: Task MULTI  (release of 31DEC13) begins
+MULTI1: Appears to have ended successfully
+INDXR1: Task INDXR  (release of 31DEC13) begins
+INDXR1: Appears to have ended successfully
+UVPRM1: Task UVPRM  (release of 31DEC13) begins
+UVPRM1: Appears to have ended successfully
+Uniformly weighted dirty map
+Creating image: J0518+3306.IIM001.1
+zapping old data: J0518+3306.IIM001.1
+zapping old data: J0518+3306.IBM001.1
+number pixels= 512
+pixel size= 0.374694424176 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.0657680556178
+rms flux= 0.0169876450673
+dynamic range= 3.87152282481
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_IMAPU.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_IMAPU.PS  to pdf.
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+Naturally weighted dirty map
+Creating image: J0518+3306.IIM001.2
+zapping old data: J0518+3306.IIM001.2
+zapping old data: J0518+3306.IBM001.2
+number pixels= 512
+pixel size= 0.374694424176 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.0855318754911
+rms flux= 0.0246015256271
+dynamic range= 3.47668989264
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_IMAPN.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_IMAPN.PS  to pdf.
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+Uniformly weighted clean map
+Creating image: J0518+3306.ICL001.1
+zapping old data: J0518+3306.ICL001.1
+zapping old data: J0518+3306.IBM001.1
+number pixels= 512
+pixel size= 0.374694424176 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.0796234831214
+rms flux= 0.0128664365038
+dynamic range= 6.1884643116
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_ICLN_1.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_ICLN_1.PS  to pdf.
+Ending tmask  9  at  Wed Nov 21 15:47:29 2018
+
+
+********************
+Starting tmask  10, iterate self-cal and imaging  at  Wed Nov 21 15:47:29 2018
+
+mapping source= 0234+285
+selfcal iteration  1  using solmode=  P  and source model  0234+285.ICL001.1
+selfcal solint= 1.4656307999
+CALIB1: Task CALIB  (release of 31DEC13) begins
+CALIB1: Appears to have ended successfully
+CLCAL1: Task CLCAL  (release of 31DEC13) begins
+CLCAL1: *** WARNING: THE NEW CL TABLE WILL NOT CONTAIN ALL OF THE DATA
+CLCAL1: Appears to have ended successfully
+SNPLT1: Task SNPLT  (release of 31DEC13) begins
+SNPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_CALIB_PHAS1.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_CALIB_PHAS1.PS  to pdf.
+Creating image: 0234+285.ICL001.2
+zapping old data: 0234+285.ICL001.2
+zapping old data: 0234+285.IBM001.2
+number pixels= 512
+pixel size= 0.366975441871 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.886887609959
+rms flux= 0.0508425291628
+dynamic range= 17.4438137631
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_ICLN_2.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_ICLN_2.PS  to pdf.
+selfcal iteration  2  using solmode=  A&P  and source model  0234+285.ICL001.2
+selfcal solint= 1.4656307999
+CALIB1: Task CALIB  (release of 31DEC13) begins
+CALIB1: Appears to have ended successfully
+SNSMO1: Task SNSMO  (release of 31DEC13) begins
+SNSMO1: Appears to have ended successfully
+CLCAL1: Task CLCAL  (release of 31DEC13) begins
+CLCAL1: *** WARNING: THE NEW CL TABLE WILL NOT CONTAIN ALL OF THE DATA
+CLCAL1: Appears to have ended successfully
+SNPLT1: Task SNPLT  (release of 31DEC13) begins
+SNPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_CALIB_AMP2.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_CALIB_AMP2.PS  to pdf.
+LISTR1: Task LISTR  (release of 31DEC13) begins
+LISTR1: Appears to have ended successfully
+Creating image: 0234+285.ICL001.3
+zapping old data: 0234+285.ICL001.3
+zapping old data: 0234+285.IBM001.3
+number pixels= 512
+pixel size= 0.366975441871 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.753628671169
+rms flux= 0.027025164105
+dynamic range= 27.8861829753
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_ICLN_3.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_ICLN_3.PS  to pdf.
+
+mapping source= J0529+3209
+selfcal iteration  1  using solmode=  P  and source model  J0529+3209.ICL001.1
+selfcal solint= 1.4656307999
+CALIB1: Task CALIB  (release of 31DEC13) begins
+CALIB1: Appears to have ended successfully
+CLCAL1: Task CLCAL  (release of 31DEC13) begins
+CLCAL1: *** WARNING: THE NEW CL TABLE WILL NOT CONTAIN ALL OF THE DATA
+CLCAL1: Appears to have ended successfully
+SNPLT1: Task SNPLT  (release of 31DEC13) begins
+SNPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_CALIB_PHAS1.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_CALIB_PHAS1.PS  to pdf.
+Creating image: J0529+3209.ICL001.2
+zapping old data: J0529+3209.ICL001.2
+zapping old data: J0529+3209.IBM001.2
+number pixels= 512
+pixel size= 0.372254386352 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.0481522008777
+rms flux= 0.00121364815277
+dynamic range= 39.6755853562
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_ICLN_2.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_ICLN_2.PS  to pdf.
+selfcal iteration  2  using solmode=  A&P  and source model  J0529+3209.ICL001.2
+selfcal solint= 1.4656307999
+CALIB1: Task CALIB  (release of 31DEC13) begins
+CALIB1: Appears to have ended successfully
+SNSMO1: Task SNSMO  (release of 31DEC13) begins
+SNSMO1: Appears to have ended successfully
+CLCAL1: Task CLCAL  (release of 31DEC13) begins
+CLCAL1: *** WARNING: THE NEW CL TABLE WILL NOT CONTAIN ALL OF THE DATA
+CLCAL1: Appears to have ended successfully
+SNPLT1: Task SNPLT  (release of 31DEC13) begins
+SNPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_CALIB_AMP2.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_CALIB_AMP2.PS  to pdf.
+LISTR1: Task LISTR  (release of 31DEC13) begins
+LISTR1: Appears to have ended successfully
+Creating image: J0529+3209.ICL001.3
+zapping old data: J0529+3209.ICL001.3
+zapping old data: J0529+3209.IBM001.3
+number pixels= 512
+pixel size= 0.372254386352 mas
+IMAGR1: Task IMAGR  (release of 31DEC13) begins
+IMAGR1: Appears to have ended successfully
+IMEAN1: Task IMEAN  (release of 31DEC13) begins
+IMEAN1: Appears to have ended successfully
+KNTR 1: Task KNTR   (release of 31DEC13) begins
+KNTR 1: Appears to have ended successfully
+peak flux= 0.0476216748357
+rms flux= 0.000448061531642
+dynamic range= 106.283783527
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_ICLN_3.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_ICLN_3.PS  to pdf.
+Ending tmask  10  at  Wed Nov 21 15:47:44 2018
+
+
+********************
+Starting tmask  11, plot the final self-calibrated data  at  Wed Nov 21 15:47:44 2018
+
+Plotting final calibrated data of source:  0234+285
+Plot amplitude versus u,v distance
+UVPLT1: Task UVPLT  (release of 31DEC13) begins
+UVPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_UVPLT.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_UVPLT.PS  to pdf.
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_UVPLT.PS  to png.
+Plot u,v coverage
+UVPLT1: Task UVPLT  (release of 31DEC13) begins
+UVPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_UVCOV.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_UVCOV.PS  to pdf.
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_UVCOV.PS  to png.
+Plot model and data together
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_VPLOT_MODEL.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_VPLOT_MODEL.PS  to pdf.
+Plot closure phases of data-model
+zapping old data: 0234+285.SPLIT.2
+Splitting sources  1  to  1
+SPLIT1: Task SPLIT  (release of 31DEC13) begins
+SPLIT1: Appears to have ended successfully
+zapping old data: 0234+285.UVSUB.1
+UVSUB1: Task UVSUB  (release of 31DEC13) begins
+UVSUB1: Appears to have ended successfully
+CLPLT1: Task CLPLT  (release of 31DEC13) begins
+CLPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_CLPHS.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_CLPHS.PS  to pdf.
+
+Plotting final calibrated data of source:  J0529+3209
+Plot amplitude versus u,v distance
+UVPLT1: Task UVPLT  (release of 31DEC13) begins
+UVPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_UVPLT.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_UVPLT.PS  to pdf.
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_UVPLT.PS  to png.
+Plot u,v coverage
+UVPLT1: Task UVPLT  (release of 31DEC13) begins
+UVPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_UVCOV.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_UVCOV.PS  to pdf.
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_UVCOV.PS  to png.
+Plot model and data together
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+VPLOT1: Task VPLOT  (release of 31DEC13) begins
+VPLOT1: WARNING: Model will be plotted for the frequency
+VPLOT1: WARNING: You are attempting to plot a model against
+VPLOT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_VPLOT_MODEL.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_VPLOT_MODEL.PS  to pdf.
+Plot closure phases of data-model
+zapping old data: J0529+3209.SPLIT.2
+Splitting sources  1  to  1
+SPLIT1: Task SPLIT  (release of 31DEC13) begins
+SPLIT1: Appears to have ended successfully
+zapping old data: J0529+3209.UVSUB.1
+UVSUB1: Task UVSUB  (release of 31DEC13) begins
+UVSUB1: Appears to have ended successfully
+CLPLT1: Task CLPLT  (release of 31DEC13) begins
+CLPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_CLPHS.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_CLPHS.PS  to pdf.
+
+Plotting final calibrated data of source:  J0530+3301
+Plot amplitude versus u,v distance
+UVPLT1: Task UVPLT  (release of 31DEC13) begins
+UVPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_UVPLT.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_UVPLT.PS  to pdf.
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_UVPLT.PS  to png.
+Plot u,v coverage
+UVPLT1: Task UVPLT  (release of 31DEC13) begins
+UVPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_UVCOV.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_UVCOV.PS  to pdf.
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_UVCOV.PS  to png.
+
+Plotting final calibrated data of source:  J0518+3306
+Plot amplitude versus u,v distance
+UVPLT1: Task UVPLT  (release of 31DEC13) begins
+UVPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_UVPLT.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_UVPLT.PS  to pdf.
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_UVPLT.PS  to png.
+Plot u,v coverage
+UVPLT1: Task UVPLT  (release of 31DEC13) begins
+UVPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_UVCOV.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_UVCOV.PS  to pdf.
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_UVCOV.PS  to png.
+Ending tmask  11  at  Wed Nov 21 15:48:04 2018
+
+
+********************
+Starting tmask  12, calculate the antenna sensitivities (using selfcal
+            results)  at  Wed Nov 21 15:48:04 2018
+zapping old data: EP103DUNB.TMP.1
+TASAV1: Task TASAV  (release of 31DEC13) begins
+TASAV1: Appears to have ended successfully
+TACOP1: Task TACOP  (release of 31DEC13) begins
+TACOP1: Appears to have ended successfully
+TACOP1: Task TACOP  (release of 31DEC13) begins
+TACOP1: Appears to have ended successfully
+CLCAL1: Task CLCAL  (release of 31DEC13) begins
+CLCAL1: *** WARNING: THE NEW CL TABLE WILL NOT CONTAIN ALL OF THE DATA
+CLCAL1: WARNING: SN table    2 has already been applied
+CLCAL1: WARNING: SN table    1 has already been applied
+CLCAL1: Appears to have ended successfully
+SNPLT1: Task SNPLT  (release of 31DEC13) begins
+SNPLT1: Appears to have ended successfully
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_SENS.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_SENS.PS  to pdf.
+Ending tmask  12  at  Wed Nov 21 15:48:05 2018
+
+
+********************
+Starting tmask  13, save useful data and plot final map  at  Wed Nov 21 15:48:05 2018
+zapping old data: EP103DUNB.TASAV.1
+TASAV1: Task TASAV  (release of 31DEC13) begins
+TASAV1: Appears to have ended successfully
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+
+saving fits and ps images for source= 0234+285
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_ICLN.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_0234+285_ICLN.PS  to pdf.
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+
+saving fits and ps images for source= J0529+3209
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_ICLN.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0529+3209_ICLN.PS  to pdf.
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+
+saving fits and ps images for source= J0530+3301
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_ICLN.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0530+3301_ICLN.PS  to pdf.
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+
+saving fits and ps images for source= J0518+3306
+Creating plot file:  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_ICLN.PS
+LWPLA1: Task LWPLA  (release of 31DEC13) begins
+LWPLA1: Appears to have ended successfully
+Converting  /jop83_0/pipe/out/ep103dunb/ep103dunb_J0518+3306_ICLN.PS  to pdf.
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+FITTP1: Task FITTP  (release of 31DEC13) begins
+FITTP1: Appears to have ended successfully
+Ending tmask  13  at  Wed Nov 21 15:48:07 2018
+********************
+Pipeline has completed and data are saved - now archive it
+********************
+
+
+Waiting for the child process ( pid =  24468 ) to finish...
+
+
+
+Waiting for the child process ( pid =  24538 ) to finish...
+
+
+
+Waiting for the child process ( pid =  24581 ) to finish...
+
+********************
+The pipeline has ended normally at  Wed Nov 21 15:48:16 2018
+********************
+
+
+
