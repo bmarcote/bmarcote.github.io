@@ -7,16 +7,16 @@
 
 .column {
 	float: left;
-	padding: 10px;
+	padding: 20px;
 }
 
 .left {
-	width: 30%;
+	width: 25%;
 	background-color: #CCF;
 }
 
 .right {
-	/* width: 70%; */
+	width: 70%;
 	background-color: #FFA;
 }
 
