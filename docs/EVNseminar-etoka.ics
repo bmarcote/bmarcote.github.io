@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210127T093231Z
+UID:20210127T093231Z-1520992986@marudot.com
+DTSTART;TZID=Europe/Berlin:20210205T150000
+DTEND;TZID=Europe/Berlin:20210205T160000
+SUMMARY:EVN Seminar: Distance of optically-obscured evolved stars (Sandra Etoka)
+URL:https://www.evlbi.org/evn-seminars
+DESCRIPTION:EVN Seminar.\n\nPlease join in Zoom: https://astron.zoom.us/j/88545312932\n\nor in YouTube via streaming: https://youtu.be/KMZxi_qapOY\n\nIn this seminar\, Sandra Etoka (JBCA & U. Manchester) will talk about “Distance of optically-obscured evolved stars”.\n\nAbstract: As intermediate-mass stars head towards their final fate\, they pass through the red-giant stage where they experience an increase of mass loss. This induces the creation of a circumstellar envelope of dust and gas. By the very end of this evolutionary stage\, the amount of dust in the circumstellar envelope of a good fraction of these evolved stars is such that it blocks optical radiation\, turning them into so-called OH/IR stars. These precursors of planetary nebulae are commonly observed throughout the Galaxy and are also observed in the Magellanic Clouds. Since optically thick\, measurements of their distances using optical parallaxes as e.g. delivered by GAIA\, is not possible. This issue can be circumvented thanks to maser emission. As their name gives it away\, the physical conditions turn out to be ideal for a strong (1612-MHz) OH maser emission to be produced in the outer layers of the radially-expanding spherical circumstellar envelope of OH/IR stars. I will present how\, combining single-dish monitoring and interferometric mapping of this OH maser emission\, the "phase-lag method" allows us to measure their distance.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EVN Seminar: Distance of optically-obscured evolved stars (Sandra Etoka)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
